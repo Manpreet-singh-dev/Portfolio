@@ -5,7 +5,7 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
-const basename = import.meta.env.MODE === "production" ? "/Github-portfolio/" : "/";
+const basename = import.meta.env.MODE === "production" ? "/Portfolio/" : "/";
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
