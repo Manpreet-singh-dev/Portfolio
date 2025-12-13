@@ -5,9 +5,11 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+const basename = import.meta.env.MODE === "production" ? "/Github-portfolio/" : "/";
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
+      <BrowserRouter basename={basename}>
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
