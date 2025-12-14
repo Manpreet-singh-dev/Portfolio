@@ -23,7 +23,7 @@ const Contact = () => {
             <div className="hidden sm:block w-px h-6 bg-border" />
             <div className="flex items-center gap-3 text-muted-foreground">
               <MapPin className="text-primary" size={20} />
-              <span className="font-mono">San Francisco, CA</span>
+              <span className="font-mono">Punjab, India</span>
             </div>
           </div>
 

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
+import { MediumIcon } from "@/ui/MediumIcon";
 
 const roles = ["Full Stack Developer", "Open Source Contributor", "UI/UX Enthusiast"];
 
@@ -63,7 +64,7 @@ const Hero = () => {
 
           <div className="flex items-center justify-center gap-6 mb-16 animate-fade-up opacity-0" style={{ animationDelay: "1000ms", animationFillMode: "forwards" }}>
             <a
-              href="https://github.com"
+              href="https://github.com/Manpreet-singh-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border/50 text-muted-foreground hover:text-primary hover:border-primary/50 hover:glow-box transition-all duration-300"
@@ -71,12 +72,21 @@ const Hero = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/manpreet-singh-045b4b252"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border/50 text-muted-foreground hover:text-primary hover:border-primary/50 hover:glow-box transition-all duration-300"
             >
               <Linkedin size={24} />
+            </a>
+            <a
+              href="https://manpreetsingh53535.medium.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              
+            <MediumIcon size={24} />
             </a>
             <a
               href="mailto:Manpreetsingh53535@gmail.com"
